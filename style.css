@@ -1,0 +1,62 @@
+html {
+    font-family: verdana, sans-serif;
+    background-color: #F6F4F4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.upper-flexdiv{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.lower-flexdiv{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+    height: 65vh;
+
+}
+
+.flexholder{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.updiv-child{
+    margin-top: 0;
+    
+    width: 33%;
+    min-height: 30%;
+    padding: 2em;
+    background-color: #d1d1d1;
+    background-size: contain;
+    border-radius: 0.25em;
+    justify-content: center;
+}
+
+.lowdiv-child{
+    margin-top: 0;
+    width: 33%;
+    min-height: 70%;
+    padding: 2em;
+    justify-content: center;
+    background-color: #d1d1d1;
+    background-size: contain;
+    border-radius: 0.25em;
+}
+
+.split-area{
+    resize: none;
+    overflow: scroll;
+    min-height: 5vh;
+}

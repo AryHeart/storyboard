@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CMPT 370 Storyboard</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    <body>
+        <div class="upper-flexdiv">
+            <div class="updiv-child">
+                <p>
+                    User Story: As a director, Trevor wants to time script read throughs and save splits of each scene, so that he can ensure the production stays on schedule.
+                </p>
+                <p>
+                    *Drawing control widget
+                </p>
+            </div>
+            <div class="updiv-child">
+                <div class="flexholder">
+                    <div class="flexItems">
+                        <span id="hr">00</span>:<span id="min">00</span>:<span id="sec">00</span>s
+                    </div>
+                </div>
+                <div>
+                    <button id="start" class="start-button">Start</button>
+                    <button id="stop" class="stop-button">Stop</button>
+                    <button id="reset" class="reset-button">Reset</button>
+                    <button id="split" class="split-button">split</button>
+                    <button id="extract" class="extract-button">extract</button>
+                </div>
+                <div>
+                    <textarea id="splitarea" class="split-area">Split times</textarea>
+                </div>
+            </div>
+            <div class="updiv-child">
+                <p>
+                    annotation control unit
+                </p>
+            </div>
+        </div>
+        <div class="lower-flexdiv">
+            <div class="lowdiv-child">
+                <p>
+                    drawing area
+                </p>
+            </div>
+            <div class="lowdiv-child">
+                <p>
+                    display 
+                </p>
+            </div>
+            <div class="lowdiv-child">
+                <p>
+                    annotation area
+                </p>
+            </div>
+        </div>
+        <script src="timer.js"></script>
+    </body>
+</html>
